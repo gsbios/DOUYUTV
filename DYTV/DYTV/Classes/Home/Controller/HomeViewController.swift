@@ -8,7 +8,18 @@
 
 import UIKit
 
+private let kTitleViewH : CGFloat = 40
+
 class HomeViewController: UIViewController {
+    
+//MARK:-懒加载
+    fileprivate lazy var pageView : pageTitleView = {
+        
+        let titleFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH, width: KscreenW, height: kTitleViewH)
+        let titles = ["推荐","游戏","娱乐","趣玩"]
+        let titleView = pageTitleView(frame: titleFrame, titles: titles)
+        return titleView
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +34,8 @@ extension HomeViewController {
     
      fileprivate func setupUI() {
         
+        automaticallyAdjustsScrollViewInsets = false;
+        self.view.addSubview(pageView)
         setupnavigationBar()
     }
     
