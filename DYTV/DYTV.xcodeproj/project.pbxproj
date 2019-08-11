@@ -17,6 +17,11 @@
 		918672D722FFC77900CF8C2D /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918672D622FFC77900CF8C2D /* Live.storyboard */; };
 		918672D922FFC7C200CF8C2D /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918672D822FFC7C200CF8C2D /* Follow.storyboard */; };
 		918672DB22FFC7FA00CF8C2D /* Podfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 918672DA22FFC7FA00CF8C2D /* Podfile.storyboard */; };
+		918672DD22FFCA9E00CF8C2D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918672DC22FFCA9E00CF8C2D /* HomeViewController.swift */; };
+		918672DF22FFCAC600CF8C2D /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918672DE22FFCAC600CF8C2D /* LiveViewController.swift */; };
+		918672E122FFCAD100CF8C2D /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918672E022FFCAD100CF8C2D /* FollowViewController.swift */; };
+		918672E322FFCADE00CF8C2D /* PodfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918672E222FFCADE00CF8C2D /* PodfileViewController.swift */; };
+		918672E722FFCDF500CF8C2D /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918672E622FFCDF500CF8C2D /* UIBarButtonItem-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		918672D622FFC77900CF8C2D /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
 		918672D822FFC7C200CF8C2D /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
 		918672DA22FFC7FA00CF8C2D /* Podfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Podfile.storyboard; sourceTree = "<group>"; };
+		918672DC22FFCA9E00CF8C2D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		918672DE22FFCAC600CF8C2D /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		918672E022FFCAD100CF8C2D /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		918672E222FFCADE00CF8C2D /* PodfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodfileViewController.swift; sourceTree = "<group>"; };
+		918672E622FFCDF500CF8C2D /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				918672D422FFC75200CF8C2D /* Home.storyboard */,
+				918672DC22FFCA9E00CF8C2D /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,6 +190,7 @@
 		918672C122FFC40C00CF8C2D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				918672E622FFCDF500CF8C2D /* UIBarButtonItem-Extension.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -197,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				918672D822FFC7C200CF8C2D /* Follow.storyboard */,
+				918672E022FFCAD100CF8C2D /* FollowViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -229,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				918672D622FFC77900CF8C2D /* Live.storyboard */,
+				918672DE22FFCAC600CF8C2D /* LiveViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -261,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				918672DA22FFC7FA00CF8C2D /* Podfile.storyboard */,
+				918672E222FFCADE00CF8C2D /* PodfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -446,6 +461,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9186728A22FEADB500CF8C2D /* AppDelegate.swift in Sources */,
+				918672DF22FFCAC600CF8C2D /* LiveViewController.swift in Sources */,
+				918672E722FFCDF500CF8C2D /* UIBarButtonItem-Extension.swift in Sources */,
+				918672DD22FFCA9E00CF8C2D /* HomeViewController.swift in Sources */,
+				918672E122FFCAD100CF8C2D /* FollowViewController.swift in Sources */,
+				918672E322FFCADE00CF8C2D /* PodfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
