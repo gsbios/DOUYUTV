@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40CAC16F2301170F00FDE0EB /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CAC16E2301170F00FDE0EB /* UIColor.swift */; };
+		40CAC171230134DE00FDE0EB /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CAC170230134DE00FDE0EB /* PageContentView.swift */; };
+		40CAC17923016A8500FDE0EB /* liveTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CAC17823016A8500FDE0EB /* liveTitleView.swift */; };
 		9186728A22FEADB500CF8C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186728922FEADB500CF8C2D /* AppDelegate.swift */; };
 		9186728F22FEADB500CF8C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9186728D22FEADB500CF8C2D /* Main.storyboard */; };
 		9186729122FEADB600CF8C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9186729022FEADB600CF8C2D /* Assets.xcassets */; };
@@ -44,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40CAC16E2301170F00FDE0EB /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		40CAC170230134DE00FDE0EB /* PageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		40CAC17823016A8500FDE0EB /* liveTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liveTitleView.swift; sourceTree = "<group>"; };
 		9186728622FEADB500CF8C2D /* DYTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9186728922FEADB500CF8C2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9186728E22FEADB500CF8C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +100,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40CAC17323013CC500FDE0EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		40CAC17423013CCE00FDE0EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		40CAC17523013CD600FDE0EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		40CAC17623013CDD00FDE0EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		40CAC17723013CFA00FDE0EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		9186727D22FEADB500CF8C2D = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +202,7 @@
 		918672BD22FFC40C00CF8C2D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				40CAC17323013CC500FDE0EB /* ViewModel */,
 				918672BE22FFC40C00CF8C2D /* Controller */,
 				918672BF22FFC40C00CF8C2D /* Model */,
 				918672C022FFC40C00CF8C2D /* View */,
@@ -196,6 +238,7 @@
 			children = (
 				918672E622FFCDF500CF8C2D /* UIBarButtonItem-Extension.swift */,
 				918672E823005FE100CF8C2D /* common.swift */,
+				40CAC16E2301170F00FDE0EB /* UIColor.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -203,6 +246,7 @@
 		918672C222FFC40C00CF8C2D /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				40CAC17723013CFA00FDE0EB /* ViewModel */,
 				918672C322FFC40C00CF8C2D /* Controller */,
 				918672C422FFC40C00CF8C2D /* Model */,
 				918672C522FFC40C00CF8C2D /* View */,
@@ -236,6 +280,7 @@
 		918672C622FFC40C00CF8C2D /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				40CAC17423013CCE00FDE0EB /* ViewModel */,
 				918672C722FFC40C00CF8C2D /* Controller */,
 				918672C822FFC40C00CF8C2D /* Model */,
 				918672C922FFC40C00CF8C2D /* View */,
@@ -269,6 +314,7 @@
 		918672CA22FFC40C00CF8C2D /* Podfile */ = {
 			isa = PBXGroup;
 			children = (
+				40CAC17623013CDD00FDE0EB /* ViewModel */,
 				918672CB22FFC40C00CF8C2D /* Controller */,
 				918672CC22FFC40C00CF8C2D /* Model */,
 				918672CD22FFC40C00CF8C2D /* View */,
@@ -302,6 +348,7 @@
 		918672CE22FFC40C00CF8C2D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				40CAC17523013CD600FDE0EB /* ViewModel */,
 				918672CF22FFC40C00CF8C2D /* Controller */,
 				918672D022FFC40C00CF8C2D /* Model */,
 				918672D122FFC40C00CF8C2D /* View */,
@@ -327,6 +374,8 @@
 			isa = PBXGroup;
 			children = (
 				918672EA230061F200CF8C2D /* pageTitleView.swift */,
+				40CAC170230134DE00FDE0EB /* PageContentView.swift */,
+				40CAC17823016A8500FDE0EB /* liveTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -469,9 +518,12 @@
 				918672EB230061F200CF8C2D /* pageTitleView.swift in Sources */,
 				918672E923005FE100CF8C2D /* common.swift in Sources */,
 				9186728A22FEADB500CF8C2D /* AppDelegate.swift in Sources */,
+				40CAC171230134DE00FDE0EB /* PageContentView.swift in Sources */,
 				918672DF22FFCAC600CF8C2D /* LiveViewController.swift in Sources */,
+				40CAC16F2301170F00FDE0EB /* UIColor.swift in Sources */,
 				918672E722FFCDF500CF8C2D /* UIBarButtonItem-Extension.swift in Sources */,
 				918672DD22FFCA9E00CF8C2D /* HomeViewController.swift in Sources */,
+				40CAC17923016A8500FDE0EB /* liveTitleView.swift in Sources */,
 				918672E122FFCAD100CF8C2D /* FollowViewController.swift in Sources */,
 				918672E322FFCADE00CF8C2D /* PodfileViewController.swift in Sources */,
 			);
@@ -659,7 +711,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gsb.DYTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -679,7 +731,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gsb.DYTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
